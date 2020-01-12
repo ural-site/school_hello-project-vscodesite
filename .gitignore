@@ -1,3 +1,18 @@
+.DS_STORE
+#.vscode
+#.gitignore
+#*.code-workspace
+
+# Virtualenv related
+bin/
+include/
+pip-selfcheck.json
+
+# Django related 
+# src/<yourproject>/settings/local.py
+# static-cdn/  # any collected static files 
+static_collected/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
